@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Mined by Community Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wallet-status">🔴</div>
+    <div id="connecting">Connecting...</div>
+    <div class="container">
+        <div id="mining-rate-container">
+            <div id="mining-rate-title">Your mining rate 
+                <a id="info" href="https://github.com/tmbc-dev/tmbc-dev.github.io" style="color: #fff; text-decoration: none;">ⓘ</a>
+            </div>
+            <div id="mining-rate">Network error</div>
+            <span id="tmbc-balance">...</span>
+        </div>
+        <div id="other-info-container">
+            <div id="mining-lvl-place">
+                <div id="mining-lvl">...</div>
+                <div id="mining-lvl-title">Your mining lvl</div>
+                <button class="action-button" onclick="upgradeMiner()">Upgrade miner</button>
+            </div>
+            <div id="referral-place">
+                <div id="earned-by-referrals">... BNB</div>
+                <div id="earned-by-referrals-title">Earned from frens</div>
+                <button class="action-button" onclick="copyReferralUrl()">Copy referral URL</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://t.me/tmbc_crypto"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/telegram-white-icon.png" alt="Telegram"></a>
+        <a href="https://x.com/tmbc_crypto"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" alt="X"></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@4.16.0/dist/web3.min.js"></script>
+    <script src="contract.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

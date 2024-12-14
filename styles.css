@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#title-subtitle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-title {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+#sub-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#other-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+#launch-button-place, #how-to-mine-place {
+    text-align: center;
+}
+
+.action-button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.action-button:hover {
+    background-color: #666;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
