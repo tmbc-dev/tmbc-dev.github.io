@@ -127,7 +127,7 @@ function copyReferralUrl() {
     navigator.clipboard.writeText(referralUrl).then(() => {
         alert("Referral URL copied to clipboard!");
     }).catch(err => {
-        console.error("Failed to copy referral URL:", err);
+        alert("Failed to copy referral URL:", err);
     });
 }
 
