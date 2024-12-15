@@ -123,7 +123,7 @@ async function upgradeMiner() {
 }
 
 function copyReferralUrl() {
-    const referralUrl = `${window.location.origin}${window.location.pathname}?r=${userAddress}`;
+    const referralUrl = `https://tmbc.cc/app/?r=${userAddress}`;
     navigator.clipboard.writeText(referralUrl).then(() => {
         alert("Referral URL copied to clipboard!");
     }).catch(err => {
