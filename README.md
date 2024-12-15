@@ -1,6 +1,6 @@
 # Token Mined by Community (TMBC)
 
-## Token Details
+## Phase 1 Token Details
 
 | **Attribute**           | **Value**                                        |
 |-------------------------|--------------------------------------------------|
@@ -33,7 +33,7 @@ Each **mining level = +0.001 TMBC/s**, with rewards being automatically added to
 ### **2. New Contract and Airdrop Campaign**
 - **Contract Migration**: The current contract will be stopped by the owner.
 - **ERC20 Token Launch**: A new TMBC contract based on the ERC20 standard will be deployed.
-- **Airdrop Opportunity**: Users can mint the new ERC20 TMBC tokens based on their previous mining activity.
+- **Airdrop Opportunity**: Users can mint the new ERC20 TMBC tokens based on their previous activity.
 
 ### **3. Listing Phase**
 - Listing of TMBC on decentralized exchanges (DEX).
